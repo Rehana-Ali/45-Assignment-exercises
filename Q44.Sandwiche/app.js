@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function sandwich(...items) {
+    console.log("you ordered a sandwichwith the following items:");
+    items.forEach(item => console.log("-" + item));
+    console.log("enjoy your sandwich \n");
+}
+sandwich('capsicum', 'tomato');
+sandwich('beef', 'chicken');
+sandwich('peanut butter', 'jelly');
