@@ -1,7 +1,7 @@
-let current_users : string [] = ["Admin"," Eric","Armish","Hammad","Farmina"]
-let new_users : string [] = ["Admin","Farmina","Aiza","Hasnain","Noreen"]
+let current_users : string [] = ["Admin"," Eric","Armish","Hammad","Farmina"];
+let new_users : string [] = ["Admin","Farmina","Aiza","Hasnain","Noreen"];
 
-let current_users_lower : string [] =current_users.map(user => user.toLowerCase())
+let current_users_lower : string [] =current_users.map(user => user.toLowerCase());
 
 
 for(let new_user of new_users){
