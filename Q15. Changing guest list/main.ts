@@ -1,14 +1,14 @@
 // name array
-let guestArray:string[] = [ "haya", "aresha", "rameema" ];
+let guestArray:string[] = [ "Anaya", "Ayesha", "Sara" ];
 
 
 // can not make dinner
-let canNotAttend:string = "rameema";
+let canNotAttend:string = "Sara";
 console.log(`${canNotAttend} can not make it, for dinner.`);
 
 
 // invite new guest
-let newGuest :string = "suhana";
+let newGuest :string = "Ashmara";
 guestArray[guestArray.indexOf(canNotAttend)]=newGuest;
 
 
